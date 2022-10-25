@@ -1,5 +1,8 @@
+body {background-color: beige;}
+
 header h1 {font-size: 200%; text-align: center; padding: 20px 0; background-color: rgba(129, 207, 243, 0.537);
     font-family: Georgia, 'Times New Roman', Times, serif;}
+    
 li {text-align: center; position: relative; display: inline-block; font-size: 150%; padding: 30px;
 }
 
@@ -11,47 +14,73 @@ a:link {color: black;}
 a:visited {color: black;}
 
 
+
+
+/* 
+This part is for About Me section */
 #aboutme {position: relative; top: 50px; background-color: aqua; border-style: solid;display: flex; flex-wrap: wrap;
     flex-direction: column; align-items: center; margin-bottom: 7%;;}
 
 #text {font-size: 250%;}
 
 #paragraph {text-align: center;}
+/* 
+About Me section is above */
 
+
+
+
+/* This section is about the images */
 #mywork {position: relative; border-left-style: solid;
 width: 60%; left: 35%; padding: 38% 0%;}
 
 #header, #horiseon, #menu, #calculator, #socialmedia {position: absolute;}
 
-#header {font-size: 300%; left: -30%; top: auto; padding: 0;}
+#header {font-size: 300%; ;left: -30%; top: 0%;}
 
 #horiseon {top: 0; left: 10%;}
 
 #menu {left: 18%; top: 42%;}
 
-#calculator {left: 52%; top: 42%}
+#calculator {left: 52%; top: 42%;}
 
 #socialmedia {bottom: 0; left: 30%;}
+/* Image section is about the images */
 
 
+
+/* This section is for the titles of the images */
+.title {position: absolute; font-size: 2vw; background-color: aliceblue;
+    z-index: 1;}
+
+#image1{left: 10%; top: 33%;}
+#image2 {left: 18%; top: 70%; }
+#image3 {left: 52%; top: 70%;}
+#image4 {left:30%; top: 96%;}
+/* Section about project titles is over. */
+
+
+
+/* This section is about the Footer */
 footer {display: flex; flex-wrap: wrap; flex-direction: row; margin: 50px 0px; }
 
-#footer2 {display: flex; flex-wrap: wrap; flex-direction: row; background-color: bisque; border-style: dashed; width: 50%;
-justify-content: center;}
+#footer2 {display: flex; flex-wrap: wrap; flex-direction: row; width: 50%;
+justify-content:space-around;}
 
 
-#email, #phone, #linkedin { 
-    border-style: solid; margin-right: 2%; }
+#email, #phone, #linkedin {margin-right: 2%; }
 
-#contact {width: 35%; position: relative; border-style: solid; background-color: brown; display: flex; flex-wrap: wrap; 
+#contact {width: 35%; position: relative; border-right-style: solid; display: flex; flex-wrap: wrap; 
     align-items: center; margin-right: 70px;}
 
 #contactme {position: absolute; font-size: 300%;
-background-color: aqua;text-align:center; width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end;}
+text-align:center; width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; flex-shrink: 2;}
 
 #email, #phone, #linkedin {position: relative;}
 
 section h4 {padding: 50px 0px; text-align: center;}
+
+/* Footer section is above */
 
 
 
@@ -63,7 +92,7 @@ section h4 {padding: 50px 0px; text-align: center;}
 
 
 @media screen and (max-width: 890px){
-    #contact {width: 100%; padding: 50px 0px; margin-right: 0%;}
+    #contact {width: 100%; padding: 50px 0px 0px 0px; margin-right: 0%; border-right-style: none;}
     #contactme{width: 100%; left: 0%;font-size: 200%;
     justify-content: center;}
     #footer2 {display: flex; align-items: center; width: 100%;} 
