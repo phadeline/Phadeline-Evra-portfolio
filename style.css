@@ -8,10 +8,12 @@ li {text-align: center; position: relative; display: inline-block; font-size: 15
 
 nav {text-align: center; background-color: aquamarine;}
 
+:root {--color1:black;}
+
 a {text-decoration: none;}
-a:active {color: black;}
-a:link {color: black;}
-a:visited {color: black;}
+a:active {color: var(--color1);}
+a:link {color: var(--color1)}
+a:visited {color: var(--color1)}
 
 
 
