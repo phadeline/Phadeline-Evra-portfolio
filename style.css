@@ -11,15 +11,15 @@ a:link {color: black;}
 a:visited {color: black;}
 
 
-#aboutme {position: relative; top: 50px; background-color: aqua; border-style: solid; display: flex; flex-wrap: wrap;
-flex-direction: column; align-items: center; margin-bottom: 7%;;}
+#aboutme {position: relative; top: 50px; background-color: aqua; border-style: solid;display: flex; flex-wrap: wrap;
+    flex-direction: column; align-items: center; margin-bottom: 7%;;}
 
 #text {font-size: 250%;}
 
 #paragraph {text-align: center;}
 
 #mywork {position: relative; border-left-style: solid;
-width: 60%; left: 35%; padding: 38% 0%; background-color: red;}
+width: 60%; left: 35%; padding: 38% 0%;}
 
 #header, #horiseon, #menu, #calculator, #socialmedia {position: absolute;}
 
@@ -33,18 +33,43 @@ width: 60%; left: 35%; padding: 38% 0%; background-color: red;}
 
 #socialmedia {bottom: 0; left: 30%;}
 
+
+footer {display: flex; flex-wrap: wrap; flex-direction: row; margin: 50px 0px; }
+
+#footer2 {display: flex; flex-wrap: wrap; flex-direction: row; background-color: bisque; border-style: dashed; width: 50%;
+justify-content: center;}
+
+
+#email, #phone, #linkedin { 
+    border-style: solid; margin-right: 2%; }
+
+#contact {width: 35%; position: relative; border-style: solid; background-color: brown; display: flex; flex-wrap: wrap; 
+    align-items: center; margin-right: 70px;}
+
+#contactme {position: absolute; font-size: 300%;
+background-color: aqua;text-align:center; width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end;}
+
+#email, #phone, #linkedin {position: relative;}
+
+section h4 {padding: 50px 0px; text-align: center;}
+
+
+
+
 @media screen and (max-width: 1200px){
     #header {left: -230px}
     
 }
 
-@media screen and (max-width: 900px){
+
+@media screen and (max-width: 890px){
+    #contact {width: 100%; padding: 50px 0px; margin-right: 0%;}
+    #contactme{width: 100%; left: 0%;font-size: 200%;
+    justify-content: center;}
+    #footer2 {display: flex; align-items: center; width: 100%;} 
     #header {left: -150px; font-size: 200%;}
-    #mywork {margin: 90px 0px 40px 0px;}
-    
+    #mywork {margin: 90px 0px 40px 0px;}   
 }
-
-
 
 
 
