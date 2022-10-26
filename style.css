@@ -33,7 +33,7 @@ About Me section is above */
 
 #mywork {display: flex; }
 #workexamples {display: flex; flex-wrap: wrap;justify-content: center;
-    width: 65vw; border-left: solid;}
+    width: 65vw; border-left: solid; background-color: red;}
 #header {width: 35vw; font-size: 3vw; text-align: right;}
 .card {margin: 0px 50px 20px 50px; width: 20vw; height: 20vw;}
 #image1 {width: 40vw; height: 30vw;}
@@ -58,7 +58,9 @@ align-items: center; justify-content: space-around; border-left-style: solid;}
     
     #mywork, #workexamples {margin-top: 100px; display: flex;
          flex-direction: column; align-items: center; border-style: none;}
-    #workexamples {margin: 10px; display: flex;} 
+    #workexamples {margin: 10px; display: flex; width: 100%;} 
+    #image1{width: 80%; height: 50%}
+    #image2, #image3, #image4 {width: 30%; height: 30%;}
     #header {text-align: center; font-size: 8vw;}      
 }
 
