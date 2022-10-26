@@ -31,51 +31,32 @@ About Me section is above */
 
 
 
-#mywork {display: flex; flex-direction: row;}
-
-#workexamples {display: flex; flex-wrap: wrap; flex-direction: row;justify-content: center;
+#mywork {display: flex; }
+#workexamples {display: flex; flex-wrap: wrap;justify-content: center;
     width: 65vw; border-left: solid;}
-
 #header {width: 35vw; font-size: 3vw; text-align: right;}
-
 .card {margin: 0px 50px 20px 50px; width: 20vw; height: 20vw;}
-
-
 #image1 {width: 40vw; height: 30vw;}
 
 
 
 
 /* This section is about the Footer */
-footer {display: flex; flex-wrap: wrap; flex-direction: row; margin: 50px 0px; }
-
-#footer2 {display: flex; flex-wrap: wrap; flex-direction: row; width: 50%;
-justify-content:space-around;}
-
-
-#email, #phone, #linkedin {margin-right: 2%; }
-
-#contact {width: 35%; position: relative; border-right-style: solid; display: flex; flex-wrap: wrap; 
-    align-items: center; margin-right: 70px;}
-
-#contactme {position: absolute; font-size: 300%;
-text-align:center; width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end;}
-
-#email, #phone, #linkedin {position: relative;}
-
-section h4 {padding: 50px 0px; text-align: center;}
+footer {display: flex; margin-top: 30px; }
+#footer2 {display: flex; flex-wrap: wrap; justify-content: center; width: 65%;
+align-items: center; justify-content: space-around; border-left-style: solid;}
+#contactme{width: 35%; text-align: right; font-size: 30px;}
 
 /* Footer section is above */
 
 
 @media screen and (max-width: 890px){
-    #contact {width: 100%; padding: 50px 0px 0px 0px; margin-top: 50px; border-right-style: none;}
-    #contactme{width: 100%; left: 0%;font-size: 200%;
-    justify-content: center;}
-    #footer2 {display: flex; align-items: center; width: 100%;}
+    footer{display: flex; flex-wrap: wrap; flex-direction: column; justify-content: center;}
+    #contactme {text-align: center; width: 100%; font-size: 5vw;}
+    #footer2 {display: flex; flex-direction:column; center; width: 100%;}
     #mywork, #workexamples {margin-top: 100px; display: flex;
          flex-direction: column; align-items: center; border-style: none;}
-    #workexamples {margin: 10px;} 
+    #workexamples {margin: 10px; display: flex;} 
     #header {text-align: center; font-size: 8vw;}
     
       
