@@ -29,37 +29,27 @@ This part is for About Me section */
 /* 
 About Me section is above */
 
+#mywork {display: flex; flex-direction: row;}
+
+
+#workexamples {display: flex; flex-wrap: wrap; flex-direction: row;justify-content: center;
+    width: 65vw; background-color: red;}
+
+#header {width: 35vw; font-size: 3vw; background-color: blue; text-align: right;}
+
+.card {margin: 50px}
+
+#image1 {width: 40vw; height: 30vw;}
+#image2 {width: 20vw; height: 20vw;}
+#image3 {width: 20vw; height: 20vw;}
+#image4 {width: 20vw; height: 20vw;}
 
 
 
-/* This section is about the images */
-#mywork {position: relative; border-left-style: solid;
-width: 60%; left: 35%; padding: 38% 0%;}
-
-#header, #horiseon, #menu, #calculator, #socialmedia {position: absolute;}
-
-#header {font-size: 300%; ;left: -30%; top: 0%;}
-
-#horiseon {top: 0; left: 10%;}
-
-#menu {left: 18%; top: 42%;}
-
-#calculator {left: 52%; top: 42%;}
-
-#socialmedia {bottom: 0; left: 30%;}
-/* Image section is about the images */
 
 
 
-/* This section is for the titles of the images */
-.title {position: absolute; font-size: 2vw; background-color: aliceblue;
-    z-index: 1;}
 
-#image1{left: 10%; top: 33%;}
-#image2 {left: 18%; top: 70%; }
-#image3 {left: 52%; top: 70%;}
-#image4 {left:30%; top: 96%;}
-/* Section about project titles is over. */
 
 
 
@@ -76,7 +66,7 @@ justify-content:space-around;}
     align-items: center; margin-right: 70px;}
 
 #contactme {position: absolute; font-size: 300%;
-text-align:center; width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; flex-shrink: 2;}
+text-align:center; width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end;}
 
 #email, #phone, #linkedin {position: relative;}
 
@@ -89,17 +79,18 @@ section h4 {padding: 50px 0px; text-align: center;}
 
 @media screen and (max-width: 1200px){
     #header {left: -230px}
+    #mywork {margin-top: 100px;}
     
 }
 
 
 @media screen and (max-width: 890px){
-    #contact {width: 100%; padding: 50px 0px 0px 0px; margin-right: 0%; border-right-style: none;}
+    #contact {width: 100%; padding: 50px 0px 0px 0px; margin-top: 50px; border-right-style: none;}
     #contactme{width: 100%; left: 0%;font-size: 200%;
     justify-content: center;}
-    #footer2 {display: flex; align-items: center; width: 100%;} 
-    #header {left: -150px; font-size: 200%;}
-    #mywork {margin: 90px 0px 40px 0px;}   
+    #footer2 {display: flex; align-items: center; width: 100%;}
+    #mywork {margin-top: 100px;} 
+      
 }
 
 
