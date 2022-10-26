@@ -34,11 +34,11 @@ About Me section is above */
 #mywork {display: flex; flex-direction: row;}
 
 #workexamples {display: flex; flex-wrap: wrap; flex-direction: row;justify-content: center;
-    width: 65vw; background-color: red;}
+    width: 65vw; border-left-style: solid;}
 
-#header {width: 35vw; font-size: 3vw; background-color: blue; text-align: right;}
+#header {width: 35vw; font-size: 3vw; text-align: right;}
 
-.card {margin: 50px; width: 20vw; height: 20vw;}
+.card {margin: 0px 50px 30px 50px; width: 20vw; height: 20vw;}
 
 
 #image1 {width: 40vw; height: 30vw;}
