@@ -51,15 +51,15 @@ align-items: center; justify-content: space-around; border-left-style: solid;}
 
 
 @media screen and (max-width: 890px){
-    footer{display: flex; flex-wrap: wrap; flex-direction: column; justify-content: center;}
-    #contactme {text-align: center; width: 100%; font-size: 5vw;}
+    footer{display: flex; flex-direction: column;}
     #footer2 {display: flex; flex-direction:column; width: 100%;}
+    #contactme {text-align: center; width: 100%; font-size: 5vw; margin-bottom: 3vw;}
+    
+    
     #mywork, #workexamples {margin-top: 100px; display: flex;
          flex-direction: column; align-items: center; border-style: none;}
     #workexamples {margin: 10px; display: flex;} 
-    #header {text-align: center; font-size: 8vw;}
-    
-      
+    #header {text-align: center; font-size: 8vw;}      
 }
 
 
