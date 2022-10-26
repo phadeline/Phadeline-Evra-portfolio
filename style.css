@@ -29,26 +29,19 @@ This part is for About Me section */
 /* 
 About Me section is above */
 
-#mywork {display: flex; flex-direction: row;}
 
+
+#mywork {display: flex; flex-direction: row;}
 
 #workexamples {display: flex; flex-wrap: wrap; flex-direction: row;justify-content: center;
     width: 65vw; background-color: red;}
 
 #header {width: 35vw; font-size: 3vw; background-color: blue; text-align: right;}
 
-.card {margin: 50px}
+.card {margin: 50px; width: 20vw; height: 20vw;}
+
 
 #image1 {width: 40vw; height: 30vw;}
-#image2 {width: 20vw; height: 20vw;}
-#image3 {width: 20vw; height: 20vw;}
-#image4 {width: 20vw; height: 20vw;}
-
-
-
-
-
-
 
 
 
