@@ -1,14 +1,11 @@
-body {background-color: beige;}
-
-header h1 {font-size: 200%; text-align: center; padding: 20px 0; background-color: rgba(129, 207, 243, 0.537);
-    font-family: Georgia, 'Times New Roman', Times, serif;}
-    
-li {text-align: center; position: relative; display: inline-block; font-size: 150%; padding: 30px;
-}
-
-nav {text-align: center; background-color: aquamarine;}
-
+body {background-color: white;}
 :root {--color1:black;}
+
+/* this is for the navigation section */
+.bg-light {background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%) !important; padding: 15px 5px !important; font-size: 25px !important;} 
+
+.nav-link{margin-left: 10px !important;}
+
 
 a {text-decoration: none;}
 a:active {color: var(--color1);}
@@ -20,17 +17,47 @@ a:visited {color: var(--color1)}
 
 /* 
 This part is for About Me section */
-#aboutme {position: relative; top: 50px; background-color: aqua; border-style: solid;display: flex; flex-wrap: wrap;
-    flex-direction: column; align-items: center; margin-bottom: 7%;;}
+#aboutme {margin: 200px 0px;}
 
-#text {font-size: 250%;}
+#text {font-size: 50px; margin-bottom: 50px;}
 
-#paragraph {text-align: center;}
+#paragraph {font-size: 30px}
+
+#aboutme{ animation: fadeIn 10s; 
+    -webkit-animation: fadeIn 10s;
+    -moz-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -ms-animation: fadeIn 10s;}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+#myimage {border-radius: 100%;}
 /* 
 About Me section is above */
 
 
-
+/* this is the projects section */
 #mywork {display: flex; }
 #workexamples {display: flex; flex-wrap: wrap;justify-content: center;
     width: 65vw; border-left: solid;}
