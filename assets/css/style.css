@@ -111,16 +111,9 @@ About Me section is above */
   font-size: 3vw;
 }
 
-/* .card {
-  width: auto;
-  height: auto;
-} */
-
-
 .workexamples {
-  margin-bottom: 3vw;
+  margin-bottom: 7vw;
 }
-
 
 .works {
   background: linear-gradient(
@@ -151,41 +144,25 @@ About Me section is above */
 }
 
 /* This section is about the Footer */
-footer {
-  display: flex;
-  margin-top: 30px;
-}
-#footer2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 65%;
-  align-items: center;
-  justify-content: space-around;
-  border-left-style: solid;
-}
 #contactme {
-  width: 35%;
-  text-align: right;
-  font-size: 30px;
+  color: rgba(252, 70, 107, 1);
+  font-size: 50px;
 }
+
+#footer2 {
+  width: 30vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#name{font-weight: bolder; font-size: 40px;}
+
+h4{font-size: 30px;}
+
+#resources{display: flex; flex-direction: column; align-items: center;}
 
 /* Footer section is above */
-
-@media screen and (max-width: 890px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
-  #footer2 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  #contactme {
-    text-align: center;
-    width: 100%;
-    font-size: 5vw;
-    margin-bottom: 3vw;
-  }
-}
