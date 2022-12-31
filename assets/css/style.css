@@ -109,11 +109,11 @@ About Me section is above */
 /* this is the projects section */
 
 #header {
-  font-size: 3vw;
+  font-size: 45px;
 }
 
 .workexamples {
-  margin-bottom: 7vw;
+  margin-bottom: 100px;
 }
 
 .works {
